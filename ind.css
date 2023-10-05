@@ -1,20 +1,23 @@
-body{
-    background: url('https://img.freepik.com/premium-photo/burger-with-juicy-cutlet-tender-bun-champignon-mushrooms-castiron-pan-wooden-rustic-plate-gray-background-hearty-lunch-closeup_118478-338.jpg');
-    background-size: cover;
-}
+
 .container{
     position: relative;
+    background: url('./IMAGES/Homemade-Beef-Burger-With-Special-Pepper-Brown-Sauce-new.jpg');
+     
+    background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 nav{
     display: flex;
     width: 92%;
+    height: 100px;
     margin-top: 1px;
     margin-left: 100px;
+    margin-right: 0;
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.053);
 }
 nav .logo{
     width: 25%;
@@ -23,18 +26,21 @@ nav .logo{
 nav ul li{
     display: inline-block;
     margin: 10px 20px;
-    color: rgb(255, 200, 0);
+    color: rgb(255, 225, 116);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+nav ul li:hover{
+    color: rgb(200, 194, 187);
+}
 .title h1{
     font-size: 80px;
-    color: white;
+    color: rgb(255, 251, 234);
     margin-left: 40px;
     
 }
 .title p{
-    color: white;
+    color: rgb(227, 228, 224);
     margin-left: 40px;
 }
 div button{
@@ -45,4 +51,20 @@ div button{
     width: 100px;
     margin-left: 150px;
     margin-top: 25px;
+}
+.button{
+    /* border: 2px solid; */
+    width: 110px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgb(255, 153, 0);
+    margin-left: 85px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
